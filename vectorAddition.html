@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VectorOperations</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src ="script.js"></script>
+</head>
+
+<h1 id="header">CSCI 346: Vector Operations Tutorial ~ Vector Addition</h2>
+
+<body onload="main()">
+
+ 		 <script src="http://rodger.global-linguist.com/webgl/lib/webgl-utils.js"></script>
+        <script src="http://rodger.global-linguist.com/webgl/lib/webgl-debug.js"></script>
+        <script src="http://rodger.global-linguist.com/webgl/lib/cuon-utils.js"></script>
+        <script src="http://rodger.global-linguist.com/webgl/lib/cuon-matrix.js"></script>  
+
+	<div id="selectOperation">
+
+		<div id="tutorialTitle">Select Tutorial Desired</div>
+		<a id="vSelection" href = "vectorAddition.html">Vector Addition</a>
+		<a id="vSelection" href="vectorSubtraction.html">Vector Subtraction</a>
+		<a id="vSelection" href="scalerVectorMultiplication.html">Scalar-Vector Multiplication</a>
+		<a id="vSelection" href="dotProduct.html">Dot Product</a>
+		<a id="vSelection" href="crossP.html">Cross Product</a>
+		<a id="vSelection" a href="ppSub.html">Point Point Subtraction</a>
+		<a id="vSelection" a href="vectorNorm.html">Vector Normalization</a>
+	</div>
+
+	<div>Given W = U + V</div>
+	<div>Find W</div>
+	
+
+	<canvas id="given" width="300" height="300" >
+	</canvas>
+
+	<div>1. Draw the first vector in the equation (U)</div>
+	<canvas id="vaFirst" width="300" height="300" >
+	</canvas>
+
+	<div>2. Draw the vector being added (V) at the head of the previous vector (U) </div>
+	<canvas id="vaSecond" width="300" height="300" >
+	</canvas>
+
+	<div>3. Draw a vector from the tail of (U) to the head of (V)</div>
+	<div>That's it! W is the resulting vector</div>
+	<canvas id="vaThird" width="300" height="300" ></canvas>
+
+</body>
+</html>

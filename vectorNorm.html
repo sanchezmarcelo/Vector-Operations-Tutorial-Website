@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VectorOperations</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src ="scriptVN.js"></script>
+</head>
+
+<h1 id="header">CSCI 346: Vector Operations Tutorial ~ Vector Normalization</h2>
+
+<body onload="main()">
+
+ 		 <script src="http://rodger.global-linguist.com/webgl/lib/webgl-utils.js"></script>
+        <script src="http://rodger.global-linguist.com/webgl/lib/webgl-debug.js"></script>
+        <script src="http://rodger.global-linguist.com/webgl/lib/cuon-utils.js"></script>
+        <script src="http://rodger.global-linguist.com/webgl/lib/cuon-matrix.js"></script>  
+
+	<div id="selectOperation">
+
+		<div id="tutorialTitle">Select Tutorial Desired</div>
+
+		<a id="vSelection" href = "vectorAddition.html">Vector Addition</a>
+		<a id="vSelection" href="vectorSubtraction.html">Vector Subtraction</a>
+		<a id="vSelection" href="scalerVectorMultiplication.html">Scalar-Vector Multiplication</a>
+		<a id="vSelection" href="dotProduct.html">Dot Product</a>
+		<a id="vSelection" href="crossP.html">Cross Product</a>
+		<a id="vSelection" a href="ppSub.html">Point Point Subtraction</a>
+		<a id="vSelection" a href="vectorNorm.html">Vector Normalization</a>
+	
+	</div>
+	
+	<canvas id="given" width="300" height="300">
+	</canvas>
+
+	<div id="one">To normalize a vector means to take a vector that is longer or shorter than length one and scale it to length one</div>
+	<div id="two">1. Find the magnitude ( | | i | | ) of i.</div>
+	<div id="three">Do this by taking the square of the X + Y and derriving their square root.</div>
+	<div id="four">Looks like: | | i | | = sqrt(16 + 81) </div>
+	<div id="five">2. solve.</div>
+	<div id="six">| | i | | = sqrt(97)</div>
+	<div id="seven">3. Divide (X, Y) by sqrt(97)</div>
+	<div id="eight">(X/sqrt(97), Y/sqrt(97)) </div>
+	<div id="nine">4. Solve the new X and Y coordinates for the new vector.</div>
+	<div>That's it!</div>
+
+</body>
+</html>
